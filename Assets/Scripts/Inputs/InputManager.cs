@@ -7,6 +7,7 @@ public class InputManager
     public InputControls inputControls;
 
     public Vector2 DirMove => inputControls.PlayerMovement.Walk.ReadValue<Vector2>();
+    public Vector3 mousePos => inputControls.PlayerMovement.MousePos.ReadValue<Vector2>();
 
 
     public InputManager()
